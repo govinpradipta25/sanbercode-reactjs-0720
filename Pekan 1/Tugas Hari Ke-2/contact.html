@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		div{
+			border-style: ridge;
+			border-width: 2px;
+			background-color: white;
+			margin:250px;
+			top: 10px;
+			margin-top: 50px;
+		}
+		body{
+
+			background-color: #F8F8FF;
+		}
+		ol li{
+			text-align:center;
+			font-weight: 750;
+		}
+		form {
+			padding-left: 2.5em
+		}
+/*.name{
+    margin-left: auto;
+    }*/
+    .name {
+    	display: flex-start;
+    	justify-content: space-between;
+    }
+
+</style>
+</head>
+<body>
+	<div>
+		<h1><b><center>Hubungi Kami</center></b></h1>
+		<ul type="none">
+			<li><b>Kantor:</b> pt govin insyaalloh</li>
+			<li><b>Nomor Telepon:</b> govinyudian.p@gmail.com</li>
+			<li><b>Email:</b> govinyudian.p@gmail.com</li>
+
+		</ul>
+		<h1><b><center>Kirimkan Pesan</center></b></h1>
+		<form>
+			<table>	
+				<tr>
+					<td><label for="name">Nama</label></td>
+					<td><input class="name" type="text" placeholder="masukkan nama anda" value="" id="name"></td>
+				</tr>
+				<tr>
+					<td><label for="email">Email</label></td>
+					<td><input type="email" placeholder="masukkan email anda" value="" id="email"></td>
+				</tr>
+				<tr>
+					<td><label>Jenis Kelamin</label></td>
+					<td><input type="radio" name="jenis_kelamin">Laki-laki</td>			
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="radio" name="jenis_kelamin">Perempuan</td>
+				</tr>
+				<tr>
+					<td><label for="pesan">Pesan Anda</label></td>
+					<td><textarea cols="100" rows="7" placeholder="masukkan pesan anda" id="pesan"></textarea></td>
+					
+				</tr>
+			</table>
+		</tr>
+		<tr>
+			<button type="submit">
+				<a href="index.html" style="text-decoration:none" >Kirim</a>
+			</button>
+		</tr>
+	</form>
+	
+	
+</div>
+</body>
+</html>
+
